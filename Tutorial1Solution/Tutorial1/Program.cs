@@ -18,6 +18,7 @@ namespace Tutorial1
             }
             var httpClient = new HttpClient();
 
+            Console.Write("New branch");
             try
             {
                 var response = await httpClient.GetAsync(websiteUrl);
